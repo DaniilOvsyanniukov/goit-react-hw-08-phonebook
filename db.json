@@ -1,0 +1,24 @@
+{
+  "contacts": [
+    {
+      "name": "Настя",
+      "number": "123123",
+      "id": "HdMJmuAu_"
+    },
+    {
+      "name": "Даниил",
+      "number": "123123",
+      "id": "NiP_LOCFN"
+    },
+    {
+      "name": "Виктор",
+      "number": "695464654",
+      "id": "j7rCU47vp"
+    },
+    {
+      "name": "Константин",
+      "number": "6874628",
+      "id": "XF7fEcbLW"
+    }
+  ]
+}

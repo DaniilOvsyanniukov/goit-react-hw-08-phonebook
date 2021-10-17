@@ -1,2 +1,3 @@
-# goit-react-hw-08-phonebook
-goit-react-hw-08-phonebook
+# goit-react-hw-06-phonebook
+
+goit-react-hw-06-phonebook
