@@ -27,9 +27,7 @@ const isLoading = createReducer(false, {
 
 const contactReducer = createReducer([], {
   [fatchContactsSuccess]: (_, { payload }) => payload,
-  [setContactSuccess]: (state, { payload }) => {
-    console.log(state);
-  },
+  [setContactSuccess]: (state, { payload }) => [...state, payload],
   [deleteContactSuccess]: (state, { payload }) =>
     state.filter((contacts) => !contacts.id.includes(payload)),
 });

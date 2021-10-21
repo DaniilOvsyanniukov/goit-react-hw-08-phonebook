@@ -6,8 +6,6 @@ const getVisibleContacts = (state) => {
   if (contacts.length === 0) {
     return;
   } else {
-    console.log(inputValue);
-    console.log(contacts);
     const normalizedFilter = inputValue.toLowerCase();
     return contacts.filter((contact) =>
       contact.name.toLowerCase().includes(normalizedFilter)
